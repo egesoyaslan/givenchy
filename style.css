@@ -1,0 +1,31 @@
+@import url(https://db.onlinewebfonts.com/c/b559f9ead9bf11c57168ab5ddc9d845d?family=Vectora+LT+Std+96+Black+Italic);
+
+body {
+    margin: 0;
+    height: 100vh;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    position: relative;
+}
+
+.banner {
+    height: 30vh;
+    width: auto;
+    object-fit: cover;
+    flex: 1;
+    opacity: 0.5;
+}
+
+.title {
+    font-family: "Vectora LT Std 96 Black Italic";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10vh;
+    color: rgb(186, 0, 0);
+}
