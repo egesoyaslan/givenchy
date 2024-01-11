@@ -1,10 +1,13 @@
-@import url(https://db.onlinewebfonts.com/c/b559f9ead9bf11c57168ab5ddc9d845d?family=Vectora+LT+Std+96+Black+Italic);
+@import url('https://db.onlinewebfonts.com/c/b559f9ead9bf11c57168ab5ddc9d845d?family=Vectora+LT+Std+96+Black+Italic');
+@import url('https://fonts.cdnfonts.com/css/roboto');
 
 body {
     margin: 0;
     height: 100vh;
     color: whitesmoke;
     background-color: black;
+    font-family: 'Roboto';
+    color: whitesmoke;
 }
 
 .header {
@@ -27,5 +30,58 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 10vh;
-    color: rgb(186, 0, 0);
+}
+
+.nav {
+    padding: 1em;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+
+.collections {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.collection1,
+.collection2 {
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+    position: relative;
+    text-align: center;
+}
+
+.resort {
+    height: 40vh;
+    opacity: 1;
+}
+
+.name1,
+.name2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vh;
+    font-weight: bolder;
+    opacity: 0;
+}
+
+.fall {
+    height: 40vh;
+    width: 487.81px;
+    object-fit: cover;
 }
